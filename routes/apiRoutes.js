@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
 
 router.get('/notes', (req, res) => {
@@ -7,7 +8,11 @@ router.get('/notes', (req, res) => {
 });
 
 router.post('/notes', (req,res) => {
+    let newNote = req.body;
 
+    newNote.id = uuidv4();
+
+    
 });
 
 
