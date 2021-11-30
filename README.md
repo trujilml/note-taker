@@ -1,7 +1,8 @@
 ## Note Taker
 
-Deployed URL - https://young-stream-50103.herokuapp.com/
+Deployed Heroku URL - https://young-stream-50103.herokuapp.com/
 
+## Description
 
 Your Task
 Your challenge is to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
@@ -28,14 +29,6 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
-Getting Started
-The application should have a db.json file on the back end that will be used to store and retrieve notes using the fs module.
-
-The following HTML routes should be created:
-
-GET /notes should return the notes.html file.
-
-GET * should return the index.html file.
 
 The following API routes should be created:
 
@@ -48,9 +41,10 @@ You haven’t learned how to handle DELETE requests, but this application has th
 
 DELETE /api/notes/:id should receive a query parameter containing the id of a note to delete. In order to delete a note, you'll need to read all notes from the db.json file, remove the note with the given id property, and then rewrite the notes to the db.json file.
 
+
 How to Submit the Challenge
 You are required to submit BOTH of the following for review:
 
-The URL of the functional, deployed application.
+The URL of the functional, deployed application. - Heroku URL! MUST BE HEROKU!
 
 The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
