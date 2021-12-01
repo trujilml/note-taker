@@ -39,7 +39,7 @@ https://github.com/trujilml/note-taker
 - Node.js  - Back-end development 
 - Insomnia - Application used for testing the localhost server of this application, ensured the web application worked and proved its success for saving and deleting notes respectively. 
 - Heroku - Cloud platform used to deploy this application 
-- JavaScript - Front-end development - connects with the back-end developer
-- HTML - Front-end development  - connects with the back-end developer
-- CSS - Front-end development  - connects with the back-end developer
+- JavaScript - Front-end development - connects with the back-end development
+- HTML - Front-end development  - connects with the back-end development
+- CSS - Front-end development  - connects with the back-end development
 
