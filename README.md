@@ -35,11 +35,11 @@ https://github.com/trujilml/note-taker
 - The UUID npm package used for creating a unique id for the saved note on the user's device and is presented through the db.json file when ran within the localhost on Insomnia - https://www.npmjs.com/package/uuid
 - Example of the UUID generating a unique ID with a saved sample note
 ![Note Taker ID Sample](./demo/notetakerwebsite4.png)
-- Express.js - Back-end development, retrieves the save data of the notes through db.json and is responsible for the launch of the web server.
+- Express.js - Back-end development, retrieves the save data of the notes, allows user to create new notes, and delete the notes through db.json in the apiRoutes file and is responsible for the launch of the web server.
 - Node.js  - Back-end development 
 - Insomnia - Application used for testing the localhost server of this application, ensured the web application worked and proved its success for saving and deleting notes respectively. 
 - Heroku - Cloud platform used to deploy this application 
-- JavaScript - Front-end development
-- HTML - Front-end development
-- CSS - Front-end development
+- JavaScript - Front-end development - connects with the back-end developer
+- HTML - Front-end development  - connects with the back-end developer
+- CSS - Front-end development  - connects with the back-end developer
 
