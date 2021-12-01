@@ -1,4 +1,5 @@
 const router = require('express').Router();
+//uuid package grants unique id to each saved note in the note taker
 const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
 
@@ -32,11 +33,11 @@ router.post('/notes', (req,res) => {
 router.delete('/notes/:id', (req, res) => {
 
     let deleteNote = req.params.id;
-
+    //creates arr from db.json file and also establishes arr 2 without deleteFile
     let arr = JSON.parse(fs.readFileSync('./db/db.json', 'utf8'));
 
     let arr2 = arr.filter((file) => file.id !== deleteNote);
-
+    //json file is rewritten with arr 2 and file is then returned without the now deleted note
     fs.writeFileSync('./db/db.json', JSON.stringify(arr2));
 
     return res.json(arr2);
