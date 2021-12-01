@@ -48,3 +48,11 @@ You are required to submit BOTH of the following for review:
 The URL of the functional, deployed application. - Heroku URL! MUST BE HEROKU!
 
 The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+
+UUID npm package used for posting api notes with particular id saved for the user - https://www.npmjs.com/package/uuid
+Express
+Node.js
+JavaScript 
+HTML 
+CSS
+
