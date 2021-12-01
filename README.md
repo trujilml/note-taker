@@ -11,7 +11,7 @@ Note Taker is a web application that allows you to type and save your notes - wh
 Users are first greeted with the Note Taker landing page. When clicking on the 'Get Started' button, they are presented to the main page where they are free to see the sample note page on the left-hand column where existing saved notes will be visible. The right-hand column demonstrates empty fields to enter a new note's title and the respective test below. 
 
 ![Note Taker Sample Screenshot 2](./demo/notetakerwebsite2.png)
-When text content is filled out, the Save icon will be visible and the user's note will be saved when it is clicked on and will appear in the left-hand column with other notes. When a visible, saved note is clicked on, it will be visible on the right-hand column. If the user wishes to type more notes, they can click on the + icon above at the top of the page where they will be allowed to type more notes.
+When text content is filled out, the Save icon will be visible and the user's note will be saved when it is clicked on and will appear in the left-hand column with other notes. When a visible, saved note is clicked on, it will be visible on the right-hand column. To delete notes, the user can click the trash can icon next to their saved note. If the user wishes to type another note, they can click on the + icon above at the top of the page where they will be allowed to type another note. 
 
 ## Table of Contents
 - [Description](#Description)
